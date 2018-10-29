@@ -1,6 +1,11 @@
 # Youtube Video Metadata Tools
 
 ## Getting Started
+
+<b><i>Advisory</i></b> - This project runs on go1.11.1 and takes advantage of [Go Modules](https://github.com/golang/go/wiki/Modules). Please clone the repo into a directory outside of your `$GOPATH` or set `GO111MODULE=on`.
+
+`git clone git@github.com:richytong/yvmt` - clones the repo
+
 `go build fetch.go ii.go util.go` - builds `fetch`
 
 `go build search.go ii.go util.go` - builds `search`
