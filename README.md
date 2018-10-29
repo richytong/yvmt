@@ -8,6 +8,8 @@
 ## Fetch
 Fetch and store youtube videos based on a search query string
 
+Usage: `./fetch`
+
 Flags
   - query: `--query "your youtube query here"`
   - maxResults: `--max-results 60`
@@ -15,6 +17,8 @@ Flags
 
 ## Search
 Search from all the fetched youtube videos using an inverted index
+
+Usage: `./search`
 
 Flags
   - query: `--query "you local query here"`
